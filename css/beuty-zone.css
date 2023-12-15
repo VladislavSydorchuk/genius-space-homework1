@@ -1,0 +1,228 @@
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-latin-regular.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/roboto-v30-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+      url("../fonts/roboto-v30-latin-regular.woff") format("woff"),
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+      url("../fonts/roboto-v30-latin-regular.ttf") format("truetype"),
+    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+      url("../fonts/roboto-v30-latin-regular.svg#Roboto") format("svg"); /* Legacy iOS */
+}
+/* play-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/play-v19-latin-regular.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/play-v19-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/play-v19-latin-regular.woff2") format("woff2"),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+      url("../fonts/play-v19-latin-regular.woff") format("woff"),
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+      url("../fonts/play-v19-latin-regular.ttf") format("truetype"),
+    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+      url("../fonts/play-v19-latin-regular.svg#Play") format("svg"); /* Legacy iOS */
+}
+/* play-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/play-v19-latin-700.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/play-v19-latin-700.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/play-v19-latin-700.woff2") format("woff2"),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+      url("../fonts/play-v19-latin-700.woff") format("woff"),
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+      url("../fonts/play-v19-latin-700.ttf") format("truetype"),
+    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+      url("../fonts/play-v19-latin-700.svg#Play") format("svg"); /* Legacy iOS */
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--color-brand-dark);
+}
+
+:root {
+  --color-brand-dark: #011c44;
+  --color-brand-light: #2b7fff;
+  --usually-color-black: #000000;
+  --usually-color-white: #ffffff;
+}
+
+ul {
+  list-style: none;
+}
+
+.logo {
+  font-family: "Play", sans-serif;
+  color: var(--color-brand-light);
+  font-weight: 700;
+  font-size: 22px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.nav-link {
+  font-family: "Play", sans-serif;
+  text-decoration: none;
+  color: var(--color-brand-dark);
+}
+
+.nav-link:hover {
+  color: var(--color-brand-light);
+  font-weight: 700;
+}
+/* Офферная конструкция */
+.main-title {
+  font-family: "Play" sans-serif;
+  color: var(--color-brand-light);
+  font-weight: 700;
+  font-size: 140px;
+  text-transform: capitalize;
+}
+
+.button-call {
+  background-color: var(--color-brand-light);
+  border: none;
+  color: var(--usually-color-white);
+  border-radius: 32px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.1;
+  cursor: pointer;
+}
+
+.button-call:hover {
+  background-color: transparent;
+  color: var(--color-brand-dark);
+  border: 2px solid var(--color-brand-light);
+}
+
+.text-first-section {
+  color: #4a4a4a;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* Вторая секция */
+
+.title-section {
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+}
+
+.title-section span {
+  color: var(--color-brand-light);
+  text-transform: capitalize;
+}
+
+.text-second-section {
+  font-size: 22px;
+}
+
+.text-second-section span {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+/* третья секция */
+
+.title-section.center {
+  text-align: center;
+}
+
+.advantages-items {
+  text-align: center;
+}
+
+.text-third-section {
+  text-align: center;
+}
+
+/* Четвертая секция */
+
+.map {
+  border-radius: 32px;
+}
+
+.third-title {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.third-title span {
+  color: var(--color-brand-light);
+}
+
+.button-register {
+  border-radius: 32px;
+  border-color: #747272;
+  color: var(--usually-color-white);
+  background-color: transparent;
+  font-size: 13px;
+}
+
+.button-register:hover {
+  background-color: #747272;
+  border: none;
+}
+
+.button-sign-up {
+  background-color: var(--color-brand-light);
+  border-radius: 32px;
+  color: var(--usually-color-white);
+  font-weight: 600;
+  border: 0;
+  width: 310px;
+  height: 52px;
+  top: 52px;
+  border-radius: 32px;
+  border: 2px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.polici {
+  font-size: 12px;
+  text-align: center;
+  text-decoration: none;
+  color: #747272;
+  text-align: center;
+}
+
+.polici span {
+  text-decoration-line: underline;
+}
+
+/* Футер */
+
+.address-info {
+  font-style: normal;
+  font-size: 16px;
+  text-decoration: none;
+  color: var(--usually-color-white);
+  background-color: #000000;
+  /* p.s. Чорний колір на фоні тимчасово */
+}
+
+.data-security {
+  font-size: 13px;
+  color: #747272;
+}
